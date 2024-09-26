@@ -1,0 +1,23 @@
+.centrar-card-content {
+    max-width: 350px; /* Ajusta el ancho máximo según lo que desees */
+    margin: 0 auto; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno */
+}
+
+.bienvenido-container {
+    text-align: center;
+    padding: 10px; /* Espacio interno */
+    margin: 10px 0; /* Espacio arriba y abajo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    display: inline-block; /* Para que el ancho se ajuste al contenido */
+    width: 100%; /* Ajusta al ancho del ion-card-content */
+    border: 2px solid #5e5e5e; /* Cambia #007bff por el color que desees */
+
+    ;
+}
+
+
+.centrar-card-content h3{
+    color: #5e5e5e;
+}
+

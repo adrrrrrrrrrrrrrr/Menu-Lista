@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card-content class="centrar-card-content">
+    <div class="bienvenido-container">
+      <img src="assets/images/Login.png" alt="Descripción de la imagen">
+      <br>
+      <h1>Bienvenido</h1>
+    </div>
+    <h2>Nombre de usuario</h2>
+    <br>
+      <ion-input style="border: 1px solid #5e5e5e; border-radius: 3%;" 
+        [(ngModel)]="usuario">
+      </ion-input>
+    <h3>Ingrese su nombre de usuario aqui</h3>
+    <br>
+    <h2>Contraseña</h2>
+    <br>
+      <ion-input style="border: 1px solid #5e5e5e; border-radius: 3%;" 
+        [(ngModel)]="password"
+        [type]="valorType">
+      </ion-input>
+    <h3>ingrese su nombre contraseña aqui</h3>
+    <br>
+      <ion-button expand="full" (click)="validarUsuario()" >Iniciar Sesion</ion-button>
+  </ion-card-content>
+</ion-content>
